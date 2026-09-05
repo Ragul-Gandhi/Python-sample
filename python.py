@@ -1,1 +1,1 @@
-prin ("Hello Ragul,Welcome to Jenkins.This is sample change 2")
+print ("Hello Ragul,Welcome to Jenkins.This is sample change 2")
