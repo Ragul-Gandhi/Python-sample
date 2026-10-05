@@ -11,4 +11,4 @@ artifacts:
   files:
     - python.py
     - appspec.yml
-    - scripts/**/*
+    - scrips/**/*
