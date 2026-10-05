@@ -6,6 +6,6 @@ files:
     overwrite: true
 hooks:
   ApplicationStart:
-    - location: scripts/run_app.sh
+    - location: scrips/run_app.sh
       timeout: 60
       runas: ubuntu
