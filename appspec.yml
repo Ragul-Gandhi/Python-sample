@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  - source: python.py
+    destination: /home/ubuntu/app
+    overwrite: true
+hooks:
+  ApplicationStart:
+    - location: scripts/run_app.sh
+      timeout: 60
+      runas: ubuntu
